@@ -1,0 +1,4049 @@
+{
+  "schema_version": 1,
+  "total": 673,
+  "reasons": {
+    "outside_domain_public_ip_scope": 52,
+    "non_google_pac_dependency": 4,
+    "non_google_provider_or_network": 617
+  },
+  "rules": [
+    {
+      "source": "bm7-google",
+      "line": 702,
+      "raw": "USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "bm7-google",
+      "line": 703,
+      "raw": "USER-AGENT,*com.google.Drive*",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "bm7-google",
+      "line": 704,
+      "raw": "USER-AGENT,Google.Drive*",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-google-ai",
+      "line": 20,
+      "raw": "PROCESS-NAME,Antigravity",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-google-ai",
+      "line": 21,
+      "raw": "PROCESS-NAME,Antigravity.exe",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-google-ai",
+      "line": 22,
+      "raw": "PROCESS-NAME,antigravity",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "xukun-pac",
+      "line": 124,
+      "raw": "shExpMatch(host, \"*.github.com\")",
+      "reason": "non_google_pac_dependency"
+    },
+    {
+      "source": "xukun-pac",
+      "line": 125,
+      "raw": "shExpMatch(host, \"*.githubusercontent.com\")",
+      "reason": "non_google_pac_dependency"
+    },
+    {
+      "source": "xukun-pac",
+      "line": 126,
+      "raw": "shExpMatch(host, \"*.anthropic.com\")",
+      "reason": "non_google_pac_dependency"
+    },
+    {
+      "source": "xukun-pac",
+      "line": 127,
+      "raw": "shExpMatch(host, \"*.openai.com\")",
+      "reason": "non_google_pac_dependency"
+    },
+    {
+      "source": "vps-global",
+      "line": 6,
+      "raw": "DOMAIN-SUFFIX,firefly.adobe.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 7,
+      "raw": "DOMAIN-SUFFIX,firefly.adobe.io",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 10,
+      "raw": "DOMAIN,aws-language-servers.us-east-1.amazonaws.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 11,
+      "raw": "DOMAIN,aws-toolkit-language-servers.amazonaws.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 12,
+      "raw": "DOMAIN,client-telemetry.us-east-1.amazonaws.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 13,
+      "raw": "DOMAIN,codewhisperer.us-east-1.amazonaws.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 14,
+      "raw": "DOMAIN,cognito-identity.us-east-1.amazonaws.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 15,
+      "raw": "DOMAIN,idetoolkits-hostedfiles.amazonaws.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 16,
+      "raw": "DOMAIN,idetoolkits.amazonwebservices.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 17,
+      "raw": "DOMAIN,q-developer-integration.us-east-1.api.aws",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 18,
+      "raw": "DOMAIN-SUFFIX,aws.dev",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 19,
+      "raw": "DOMAIN-SUFFIX,awsapps.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 20,
+      "raw": "DOMAIN-SUFFIX,awsstatic.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 21,
+      "raw": "DOMAIN-SUFFIX,console.aws.a2z.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 22,
+      "raw": "DOMAIN-SUFFIX,q.eu-central-1.amazonaws.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 23,
+      "raw": "DOMAIN-SUFFIX,q.us-east-1.amazonaws.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 24,
+      "raw": "DOMAIN-SUFFIX,sso.amazonaws.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 27,
+      "raw": "DOMAIN-SUFFIX,anthropic.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 28,
+      "raw": "DOMAIN-SUFFIX,anthropic.com.cn",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 29,
+      "raw": "DOMAIN-SUFFIX,antspace.dev",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 30,
+      "raw": "DOMAIN-SUFFIX,clau.de",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 31,
+      "raw": "DOMAIN-SUFFIX,claude.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 32,
+      "raw": "DOMAIN-SUFFIX,claude.app",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 33,
+      "raw": "DOMAIN-SUFFIX,claude.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 34,
+      "raw": "DOMAIN-SUFFIX,claude.new",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 35,
+      "raw": "DOMAIN-SUFFIX,claude.site",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 36,
+      "raw": "DOMAIN-SUFFIX,claudemcpclient.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 37,
+      "raw": "DOMAIN-SUFFIX,claudemcpcontent.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 38,
+      "raw": "DOMAIN-SUFFIX,claudepages.dev",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 39,
+      "raw": "DOMAIN-SUFFIX,claudestudio.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 40,
+      "raw": "DOMAIN-SUFFIX,claudeusercontent.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 41,
+      "raw": "DOMAIN-SUFFIX,modelcontextprotocol.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 42,
+      "raw": "DOMAIN-SUFFIX,modelcontextprotocol.io",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 43,
+      "raw": "DOMAIN-SUFFIX,modelcontextprotocol.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 44,
+      "raw": "DOMAIN-SUFFIX,modelcontextprotocol.org",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 45,
+      "raw": "PROCESS-NAME,Claude",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-global",
+      "line": 46,
+      "raw": "PROCESS-NAME,Claude.exe",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-global",
+      "line": 47,
+      "raw": "PROCESS-NAME,claude",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-global",
+      "line": 48,
+      "raw": "PROCESS-NAME,claude.exe",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-global",
+      "line": 49,
+      "raw": "PROCESS-NAME,cowork-svc.exe",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-global",
+      "line": 52,
+      "raw": "IP-CIDR,160.79.104.0/21,no-resolve",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 53,
+      "raw": "IP-CIDR6,2607:6bc0::/32,no-resolve",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 54,
+      "raw": "IP-ASN,399358,no-resolve",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 57,
+      "raw": "DOMAIN,anthropic-com.ghost.io",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 58,
+      "raw": "DOMAIN,anthropic.auth0.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 59,
+      "raw": "DOMAIN,anthropic.com.cdn.cloudflare.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 60,
+      "raw": "DOMAIN,browser-intake-us5-datadoghq.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 61,
+      "raw": "DOMAIN,cdn.growthbook.io",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 62,
+      "raw": "DOMAIN,cdn.usefathom.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 63,
+      "raw": "DOMAIN,servd-anthropic-website.b-cdn.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 65,
+      "raw": "DOMAIN-SUFFIX,ant.dev",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 66,
+      "raw": "DOMAIN-SUFFIX,anthropic.team",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 67,
+      "raw": "DOMAIN-SUFFIX,chatbotclaude.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 68,
+      "raw": "DOMAIN-SUFFIX,claude.dev",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 69,
+      "raw": "DOMAIN-SUFFIX,claudeacademy.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 70,
+      "raw": "DOMAIN-SUFFIX,intercom.io",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 71,
+      "raw": "DOMAIN-SUFFIX,intercomcdn.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 72,
+      "raw": "DOMAIN-SUFFIX,interface.feedback",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 73,
+      "raw": "DOMAIN-SUFFIX,lcicat.org",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 74,
+      "raw": "DOMAIN-SUFFIX,lcicollections.org",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 75,
+      "raw": "DOMAIN-SUFFIX,mcpservertest.online",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 76,
+      "raw": "DOMAIN-SUFFIX,muthos.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 77,
+      "raw": "DOMAIN-SUFFIX,sentry.io",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 78,
+      "raw": "DOMAIN-SUFFIX,sillylittleguy.org",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 79,
+      "raw": "DOMAIN-SUFFIX,statsigapi.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 80,
+      "raw": "DOMAIN-KEYWORD,datadog",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 81,
+      "raw": "DOMAIN-KEYWORD,sentry",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 82,
+      "raw": "DOMAIN-KEYWORD,sift",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 85,
+      "raw": "DOMAIN-SUFFIX,augmentcode.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 86,
+      "raw": "PROCESS-NAME,Augment",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-global",
+      "line": 87,
+      "raw": "PROCESS-NAME,Augment.exe",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-global",
+      "line": 88,
+      "raw": "PROCESS-NAME,augment",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-global",
+      "line": 91,
+      "raw": "DOMAIN-SUFFIX,bfl.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 94,
+      "raw": "DOMAIN-SUFFIX,bolt.new",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 97,
+      "raw": "DOMAIN-SUFFIX,abtestvm-sg.bytedance.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 98,
+      "raw": "DOMAIN-SUFFIX,bytegate-sg.byteintlapi.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 99,
+      "raw": "DOMAIN-SUFFIX,byteoversea.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 100,
+      "raw": "DOMAIN-SUFFIX,cici.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 101,
+      "raw": "DOMAIN-SUFFIX,ciciai.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 102,
+      "raw": "DOMAIN-SUFFIX,ciciaicdn.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 103,
+      "raw": "DOMAIN-SUFFIX,coze.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 104,
+      "raw": "DOMAIN-SUFFIX,lf3-static.bytednsdoc.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 105,
+      "raw": "DOMAIN-SUFFIX,marscode.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 106,
+      "raw": "DOMAIN-SUFFIX,sf16-short-sg.bytedapm.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 107,
+      "raw": "DOMAIN-SUFFIX,starling.zijieapi.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 108,
+      "raw": "DOMAIN-SUFFIX,trae-api-sg.mchost.guru",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 109,
+      "raw": "DOMAIN-SUFFIX,trae.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 110,
+      "raw": "DOMAIN-SUFFIX,tron-sg.bytelemon.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 113,
+      "raw": "DOMAIN-SUFFIX,cerebras.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 116,
+      "raw": "DOMAIN-SUFFIX,character.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 119,
+      "raw": "DOMAIN-SUFFIX,chutes.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 122,
+      "raw": "DOMAIN-SUFFIX,civitai.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 125,
+      "raw": "DOMAIN-SUFFIX,cline.bot",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 128,
+      "raw": "DOMAIN-SUFFIX,clipdrop.co",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 131,
+      "raw": "DOMAIN,api.cloudflare.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 132,
+      "raw": "DOMAIN-SUFFIX,ai.cloudflare.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 135,
+      "raw": "DOMAIN-SUFFIX,coderabbit.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 138,
+      "raw": "DOMAIN-SUFFIX,cohere.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 139,
+      "raw": "DOMAIN-SUFFIX,cohere.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 142,
+      "raw": "DOMAIN-SUFFIX,comfy.org",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 143,
+      "raw": "DOMAIN-SUFFIX,comfyregistry.org",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 146,
+      "raw": "DOMAIN-SUFFIX,commandcode.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 149,
+      "raw": "DOMAIN-SUFFIX,continue.dev",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 152,
+      "raw": "DOMAIN,location.microsoft.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 153,
+      "raw": "DOMAIN,odc.officeapps.live.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 154,
+      "raw": "DOMAIN-SUFFIX,copilot.microsoft.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 155,
+      "raw": "DOMAIN-SUFFIX,githubcopilot.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 158,
+      "raw": "DOMAIN,api.msn.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 159,
+      "raw": "DOMAIN,api.statsig.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 160,
+      "raw": "DOMAIN,assets.msn.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 161,
+      "raw": "DOMAIN,browser-intake-datadoghq.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 162,
+      "raw": "DOMAIN,copilot-proxy.githubusercontent.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 163,
+      "raw": "DOMAIN,copilot-workspace.githubnext.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 164,
+      "raw": "DOMAIN,copilotprodattachments.blob.core.windows.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 165,
+      "raw": "DOMAIN,gateway.bingviz.microsoft.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 166,
+      "raw": "DOMAIN,gateway.bingviz.microsoftapp.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 167,
+      "raw": "DOMAIN,in.appcenter.ms",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 168,
+      "raw": "DOMAIN,production-copilot-host-westus.webpubsub.azure.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 169,
+      "raw": "DOMAIN,self.events.data.microsoft.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 170,
+      "raw": "DOMAIN,static.cloudflareinsights.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 171,
+      "raw": "DOMAIN,sydney.bing.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 172,
+      "raw": "DOMAIN-SUFFIX,algolia.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 173,
+      "raw": "DOMAIN-SUFFIX,api.microsoftapp.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 174,
+      "raw": "DOMAIN-SUFFIX,auth0.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 175,
+      "raw": "DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 176,
+      "raw": "DOMAIN-SUFFIX,challenges.cloudflare.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 177,
+      "raw": "DOMAIN-SUFFIX,client-api.arkoselabs.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 178,
+      "raw": "DOMAIN-SUFFIX,edgeservices.bing.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 179,
+      "raw": "DOMAIN-SUFFIX,events.statsigapi.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 180,
+      "raw": "DOMAIN-SUFFIX,featuregates.org",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 181,
+      "raw": "DOMAIN-SUFFIX,identrust.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 182,
+      "raw": "DOMAIN-SUFFIX,launchdarkly.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 183,
+      "raw": "DOMAIN-SUFFIX,observeit.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 184,
+      "raw": "DOMAIN-SUFFIX,segment.io",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 185,
+      "raw": "DOMAIN-SUFFIX,stripe.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 186,
+      "raw": "IP-ASN,14061,no-resolve",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 189,
+      "raw": "DOMAIN-SUFFIX,crewai.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 192,
+      "raw": "DOMAIN-SUFFIX,cursor-cdn.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 193,
+      "raw": "DOMAIN-SUFFIX,cursor.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 194,
+      "raw": "DOMAIN-SUFFIX,cursor.sh",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 195,
+      "raw": "DOMAIN-SUFFIX,cursorapi.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 196,
+      "raw": "DOMAIN-SUFFIX,cursorvm.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 197,
+      "raw": "PROCESS-NAME,Cursor",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-global",
+      "line": 198,
+      "raw": "PROCESS-NAME,Cursor.exe",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-global",
+      "line": 199,
+      "raw": "PROCESS-NAME,cursor",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-global",
+      "line": 202,
+      "raw": "DOMAIN-SUFFIX,deepinfra.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 205,
+      "raw": "DOMAIN-SUFFIX,descript.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 208,
+      "raw": "DOMAIN-SUFFIX,devin.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 211,
+      "raw": "DOMAIN-SUFFIX,diabrowser.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 212,
+      "raw": "DOMAIN-SUFFIX,diabrowser.engineering",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 215,
+      "raw": "DOMAIN-SUFFIX,dify.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 218,
+      "raw": "DOMAIN-SUFFIX,duck.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 221,
+      "raw": "DOMAIN-SUFFIX,eigent.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 224,
+      "raw": "DOMAIN-SUFFIX,elevenlabs.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 225,
+      "raw": "DOMAIN-SUFFIX,elevenlabs.io",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 226,
+      "raw": "DOMAIN-SUFFIX,elevenlabsusercontent.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 229,
+      "raw": "DOMAIN-SUFFIX,factory.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 232,
+      "raw": "DOMAIN-SUFFIX,fireworks.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 235,
+      "raw": "DOMAIN-SUFFIX,gamma.app",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 238,
+      "raw": "DOMAIN-SUFFIX,genspark.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 255,
+      "raw": "PROCESS-NAME,Antigravity",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-global",
+      "line": 256,
+      "raw": "PROCESS-NAME,Antigravity.exe",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-global",
+      "line": 257,
+      "raw": "PROCESS-NAME,antigravity",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-global",
+      "line": 299,
+      "raw": "DOMAIN-SUFFIX,grammarly.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 302,
+      "raw": "DOMAIN-SUFFIX,groq.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 305,
+      "raw": "DOMAIN-SUFFIX,h2o.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 308,
+      "raw": "DOMAIN-SUFFIX,hermes-agent.nousresearch.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 311,
+      "raw": "DOMAIN-SUFFIX,heygen.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 314,
+      "raw": "DOMAIN-SUFFIX,hf.co",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 315,
+      "raw": "DOMAIN-SUFFIX,hf.space",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 316,
+      "raw": "DOMAIN-SUFFIX,huggingface.co",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 319,
+      "raw": "DOMAIN-SUFFIX,ideogram.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 322,
+      "raw": "DOMAIN-SUFFIX,inflection.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 323,
+      "raw": "DOMAIN-SUFFIX,pi.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 326,
+      "raw": "DOMAIN-SUFFIX,jasper.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 329,
+      "raw": "DOMAIN-SUFFIX,grazie.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 330,
+      "raw": "DOMAIN-SUFFIX,grazie.aws.intellij.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 331,
+      "raw": "DOMAIN-SUFFIX,jetbrains.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 334,
+      "raw": "DOMAIN-SUFFIX,kilo.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 335,
+      "raw": "DOMAIN-SUFFIX,kilo.codes",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 338,
+      "raw": "DOMAIN-SUFFIX,kiro.dev",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 341,
+      "raw": "DOMAIN-SUFFIX,langchain.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 344,
+      "raw": "DOMAIN-SUFFIX,leonardo.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 347,
+      "raw": "DOMAIN-SUFFIX,lmarena.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 350,
+      "raw": "DOMAIN-SUFFIX,lmstudio.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 353,
+      "raw": "DOMAIN-SUFFIX,lovable.dev",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 356,
+      "raw": "DOMAIN-SUFFIX,lovart.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 359,
+      "raw": "DOMAIN-SUFFIX,lumalabs.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 362,
+      "raw": "DOMAIN-SUFFIX,manus.im",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 363,
+      "raw": "DOMAIN-SUFFIX,manuscdn.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 366,
+      "raw": "DOMAIN,ai.developer.meta.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 367,
+      "raw": "DOMAIN,ai.meta.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 368,
+      "raw": "DOMAIN,aidemos.meta.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 369,
+      "raw": "DOMAIN,developer.meta.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 370,
+      "raw": "DOMAIN,llama.developer.meta.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 371,
+      "raw": "DOMAIN-SUFFIX,atmeta.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 372,
+      "raw": "DOMAIN-SUFFIX,llama.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 373,
+      "raw": "DOMAIN-SUFFIX,llamameta.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 374,
+      "raw": "DOMAIN-SUFFIX,meta.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 375,
+      "raw": "DOMAIN-SUFFIX,metaaiusercontent.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 376,
+      "raw": "DOMAIN-SUFFIX,metaaivm.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 377,
+      "raw": "DOMAIN-SUFFIX,muse.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 380,
+      "raw": "DOMAIN-SUFFIX,midjourney.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 383,
+      "raw": "DOMAIN-SUFFIX,mistral.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 386,
+      "raw": "DOMAIN-SUFFIX,novita.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 389,
+      "raw": "DOMAIN-SUFFIX,ollama.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 392,
+      "raw": "DOMAIN-SUFFIX,ai.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 393,
+      "raw": "DOMAIN-SUFFIX,chat.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 394,
+      "raw": "DOMAIN-SUFFIX,chatgpt.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 395,
+      "raw": "DOMAIN-SUFFIX,chatgpt.livekit.cloud",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 396,
+      "raw": "DOMAIN-SUFFIX,crixet.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 397,
+      "raw": "DOMAIN-SUFFIX,oaistatic.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 398,
+      "raw": "DOMAIN-SUFFIX,oaiusercontent.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 399,
+      "raw": "DOMAIN-SUFFIX,openai.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 400,
+      "raw": "DOMAIN-SUFFIX,openaiapi-site.azureedge.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 401,
+      "raw": "DOMAIN-SUFFIX,openaicom.imgix.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 402,
+      "raw": "DOMAIN-SUFFIX,sora.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 403,
+      "raw": "DOMAIN-KEYWORD,chatgpt-async-webps-prod",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 404,
+      "raw": "DOMAIN-KEYWORD,openai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 405,
+      "raw": "PROCESS-NAME,ChatGPT",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-global",
+      "line": 406,
+      "raw": "PROCESS-NAME,ChatGPT.exe",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-global",
+      "line": 407,
+      "raw": "PROCESS-NAME,Codex",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-global",
+      "line": 408,
+      "raw": "PROCESS-NAME,Codex.exe",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-global",
+      "line": 409,
+      "raw": "PROCESS-NAME,chatgpt",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-global",
+      "line": 410,
+      "raw": "PROCESS-NAME,codex",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-global",
+      "line": 413,
+      "raw": "IP-CIDR,199.47.142.0/23,no-resolve",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 414,
+      "raw": "IP-CIDR,24.199.123.28/32,no-resolve",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 415,
+      "raw": "IP-CIDR,64.23.132.171/32,no-resolve",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 416,
+      "raw": "IP-CIDR6,2604:f20::/32,no-resolve",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 417,
+      "raw": "IP-ASN,401518,no-resolve",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 420,
+      "raw": "DOMAIN,openai-api.arkoselabs.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 421,
+      "raw": "DOMAIN,openaiassets.blob.core.windows.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 422,
+      "raw": "DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 423,
+      "raw": "DOMAIN,openaicomproductionae4b.blob.core.windows.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 424,
+      "raw": "DOMAIN,production-openaicom-storage.azureedge.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 425,
+      "raw": "DOMAIN-SUFFIX,api.statsig.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 426,
+      "raw": "DOMAIN-SUFFIX,chatgpt.site",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 427,
+      "raw": "DOMAIN-SUFFIX,host.livekit.cloud",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 428,
+      "raw": "DOMAIN-SUFFIX,oaistatsig.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 429,
+      "raw": "DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 430,
+      "raw": "DOMAIN-SUFFIX,openai.org",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 431,
+      "raw": "DOMAIN-SUFFIX,turn.livekit.cloud",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 434,
+      "raw": "DOMAIN-SUFFIX,openart.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 437,
+      "raw": "DOMAIN-SUFFIX,openclaw.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 440,
+      "raw": "DOMAIN-SUFFIX,opencode.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 443,
+      "raw": "DOMAIN-SUFFIX,openrouter.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 446,
+      "raw": "DOMAIN-SUFFIX,otter.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 449,
+      "raw": "DOMAIN,ppl-ai-file-upload.s3.amazonaws.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 450,
+      "raw": "DOMAIN,pplx-res.cloudinary.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 451,
+      "raw": "DOMAIN-SUFFIX,perplexity.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 452,
+      "raw": "DOMAIN-SUFFIX,perplexity.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 453,
+      "raw": "DOMAIN-SUFFIX,pplx.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 456,
+      "raw": "DOMAIN-SUFFIX,phind.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 459,
+      "raw": "DOMAIN-SUFFIX,pika.art",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 462,
+      "raw": "DOMAIN-SUFFIX,poe.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 463,
+      "raw": "DOMAIN-SUFFIX,poecdn.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 466,
+      "raw": "DOMAIN-SUFFIX,qoder.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 469,
+      "raw": "DOMAIN-SUFFIX,recraft.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 472,
+      "raw": "DOMAIN-SUFFIX,replicate.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 473,
+      "raw": "DOMAIN-SUFFIX,replicate.delivery",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 476,
+      "raw": "DOMAIN-SUFFIX,repl.co",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 477,
+      "raw": "DOMAIN-SUFFIX,repl.it",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 478,
+      "raw": "DOMAIN-SUFFIX,replit.app",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 479,
+      "raw": "DOMAIN-SUFFIX,replit.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 480,
+      "raw": "DOMAIN-SUFFIX,replit.dev",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 483,
+      "raw": "DOMAIN-SUFFIX,runway.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 484,
+      "raw": "DOMAIN-SUFFIX,runwayml.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 487,
+      "raw": "DOMAIN-SUFFIX,ampcode.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 488,
+      "raw": "DOMAIN-SUFFIX,ampworkers.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 489,
+      "raw": "DOMAIN-SUFFIX,cody.dev",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 490,
+      "raw": "DOMAIN-SUFFIX,sourcegraph.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 493,
+      "raw": "DOMAIN-SUFFIX,stability.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 496,
+      "raw": "DOMAIN-SUFFIX,suno.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 497,
+      "raw": "DOMAIN-SUFFIX,suno.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 500,
+      "raw": "DOMAIN-SUFFIX,synthesia.io",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 503,
+      "raw": "DOMAIN-SUFFIX,tabnine.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 506,
+      "raw": "DOMAIN-SUFFIX,together.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 507,
+      "raw": "DOMAIN-SUFFIX,together.xyz",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 510,
+      "raw": "DOMAIN-SUFFIX,udio.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 513,
+      "raw": "DOMAIN-SUFFIX,v0.app",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 514,
+      "raw": "DOMAIN-SUFFIX,v0.dev",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 517,
+      "raw": "DOMAIN-SUFFIX,codeium.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 518,
+      "raw": "DOMAIN-SUFFIX,codeiumdata.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 519,
+      "raw": "DOMAIN-SUFFIX,windsurf.build",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 520,
+      "raw": "DOMAIN-SUFFIX,windsurf.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 521,
+      "raw": "PROCESS-NAME,Windsurf",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-global",
+      "line": 522,
+      "raw": "PROCESS-NAME,Windsurf.exe",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-global",
+      "line": 523,
+      "raw": "PROCESS-NAME,windsurf",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-global",
+      "line": 526,
+      "raw": "DOMAIN-SUFFIX,grok.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 527,
+      "raw": "DOMAIN-SUFFIX,grok.x.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 528,
+      "raw": "DOMAIN-SUFFIX,grokbot.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 529,
+      "raw": "DOMAIN-SUFFIX,grokipedia.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 530,
+      "raw": "DOMAIN-SUFFIX,x.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 533,
+      "raw": "DOMAIN-SUFFIX,you.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 536,
+      "raw": "DOMAIN-SUFFIX,youmind.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 537,
+      "raw": "DOMAIN-SUFFIX,youmind.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 538,
+      "raw": "DOMAIN-SUFFIX,youmind.site",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-global",
+      "line": 541,
+      "raw": "DOMAIN-SUFFIX,zed.dev",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 6,
+      "raw": "DOMAIN-SUFFIX,firefly.adobe.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 7,
+      "raw": "DOMAIN-SUFFIX,firefly.adobe.io",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 10,
+      "raw": "DOMAIN,bailian.console.aliyun.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 11,
+      "raw": "DOMAIN,dashscope.aliyuncs.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 12,
+      "raw": "DOMAIN,qodercn-jb.oss-cn-hangzhou.aliyuncs.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 13,
+      "raw": "DOMAIN-SUFFIX,qianwen.aliyun.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 14,
+      "raw": "DOMAIN-SUFFIX,qianwen.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 15,
+      "raw": "DOMAIN-SUFFIX,qoder.cn",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 16,
+      "raw": "DOMAIN-SUFFIX,qoder.com.cn",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 17,
+      "raw": "DOMAIN-SUFFIX,qwen.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 18,
+      "raw": "DOMAIN-SUFFIX,qwenlm.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 19,
+      "raw": "DOMAIN-SUFFIX,tongyi.aliyun.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 20,
+      "raw": "DOMAIN-SUFFIX,tongyi.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 23,
+      "raw": "DOMAIN,aws-language-servers.us-east-1.amazonaws.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 24,
+      "raw": "DOMAIN,aws-toolkit-language-servers.amazonaws.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 25,
+      "raw": "DOMAIN,client-telemetry.us-east-1.amazonaws.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 26,
+      "raw": "DOMAIN,codewhisperer.us-east-1.amazonaws.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 27,
+      "raw": "DOMAIN,cognito-identity.us-east-1.amazonaws.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 28,
+      "raw": "DOMAIN,idetoolkits-hostedfiles.amazonaws.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 29,
+      "raw": "DOMAIN,idetoolkits.amazonwebservices.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 30,
+      "raw": "DOMAIN,q-developer-integration.us-east-1.api.aws",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 31,
+      "raw": "DOMAIN-SUFFIX,aws.dev",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 32,
+      "raw": "DOMAIN-SUFFIX,awsapps.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 33,
+      "raw": "DOMAIN-SUFFIX,awsstatic.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 34,
+      "raw": "DOMAIN-SUFFIX,console.aws.a2z.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 35,
+      "raw": "DOMAIN-SUFFIX,q.eu-central-1.amazonaws.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 36,
+      "raw": "DOMAIN-SUFFIX,q.us-east-1.amazonaws.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 37,
+      "raw": "DOMAIN-SUFFIX,sso.amazonaws.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 40,
+      "raw": "DOMAIN-SUFFIX,anthropic.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 41,
+      "raw": "DOMAIN-SUFFIX,anthropic.com.cn",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 42,
+      "raw": "DOMAIN-SUFFIX,antspace.dev",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 43,
+      "raw": "DOMAIN-SUFFIX,clau.de",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 44,
+      "raw": "DOMAIN-SUFFIX,claude.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 45,
+      "raw": "DOMAIN-SUFFIX,claude.app",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 46,
+      "raw": "DOMAIN-SUFFIX,claude.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 47,
+      "raw": "DOMAIN-SUFFIX,claude.new",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 48,
+      "raw": "DOMAIN-SUFFIX,claude.site",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 49,
+      "raw": "DOMAIN-SUFFIX,claudemcpclient.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 50,
+      "raw": "DOMAIN-SUFFIX,claudemcpcontent.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 51,
+      "raw": "DOMAIN-SUFFIX,claudepages.dev",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 52,
+      "raw": "DOMAIN-SUFFIX,claudestudio.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 53,
+      "raw": "DOMAIN-SUFFIX,claudeusercontent.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 54,
+      "raw": "DOMAIN-SUFFIX,modelcontextprotocol.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 55,
+      "raw": "DOMAIN-SUFFIX,modelcontextprotocol.io",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 56,
+      "raw": "DOMAIN-SUFFIX,modelcontextprotocol.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 57,
+      "raw": "DOMAIN-SUFFIX,modelcontextprotocol.org",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 58,
+      "raw": "PROCESS-NAME,Claude",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-all",
+      "line": 59,
+      "raw": "PROCESS-NAME,Claude.exe",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-all",
+      "line": 60,
+      "raw": "PROCESS-NAME,claude",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-all",
+      "line": 61,
+      "raw": "PROCESS-NAME,claude.exe",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-all",
+      "line": 62,
+      "raw": "PROCESS-NAME,cowork-svc.exe",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-all",
+      "line": 65,
+      "raw": "IP-CIDR,160.79.104.0/21,no-resolve",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 66,
+      "raw": "IP-CIDR6,2607:6bc0::/32,no-resolve",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 67,
+      "raw": "IP-ASN,399358,no-resolve",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 70,
+      "raw": "DOMAIN,anthropic-com.ghost.io",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 71,
+      "raw": "DOMAIN,anthropic.auth0.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 72,
+      "raw": "DOMAIN,anthropic.com.cdn.cloudflare.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 73,
+      "raw": "DOMAIN,browser-intake-us5-datadoghq.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 74,
+      "raw": "DOMAIN,cdn.growthbook.io",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 75,
+      "raw": "DOMAIN,cdn.usefathom.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 76,
+      "raw": "DOMAIN,servd-anthropic-website.b-cdn.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 78,
+      "raw": "DOMAIN-SUFFIX,ant.dev",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 79,
+      "raw": "DOMAIN-SUFFIX,anthropic.team",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 80,
+      "raw": "DOMAIN-SUFFIX,chatbotclaude.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 81,
+      "raw": "DOMAIN-SUFFIX,claude.dev",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 82,
+      "raw": "DOMAIN-SUFFIX,claudeacademy.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 83,
+      "raw": "DOMAIN-SUFFIX,intercom.io",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 84,
+      "raw": "DOMAIN-SUFFIX,intercomcdn.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 85,
+      "raw": "DOMAIN-SUFFIX,interface.feedback",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 86,
+      "raw": "DOMAIN-SUFFIX,lcicat.org",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 87,
+      "raw": "DOMAIN-SUFFIX,lcicollections.org",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 88,
+      "raw": "DOMAIN-SUFFIX,mcpservertest.online",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 89,
+      "raw": "DOMAIN-SUFFIX,muthos.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 90,
+      "raw": "DOMAIN-SUFFIX,sentry.io",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 91,
+      "raw": "DOMAIN-SUFFIX,sillylittleguy.org",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 92,
+      "raw": "DOMAIN-SUFFIX,statsigapi.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 93,
+      "raw": "DOMAIN-KEYWORD,datadog",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 94,
+      "raw": "DOMAIN-KEYWORD,sentry",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 95,
+      "raw": "DOMAIN-KEYWORD,sift",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 98,
+      "raw": "DOMAIN-SUFFIX,augmentcode.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 99,
+      "raw": "PROCESS-NAME,Augment",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-all",
+      "line": 100,
+      "raw": "PROCESS-NAME,Augment.exe",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-all",
+      "line": 101,
+      "raw": "PROCESS-NAME,augment",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-all",
+      "line": 104,
+      "raw": "DOMAIN,ernie.baidu.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 105,
+      "raw": "DOMAIN,qianfan.baidubce.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 106,
+      "raw": "DOMAIN,yiyan.baidu.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 109,
+      "raw": "DOMAIN-SUFFIX,bfl.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 112,
+      "raw": "DOMAIN-SUFFIX,bolt.new",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 115,
+      "raw": "DOMAIN-SUFFIX,abtestvm-sg.bytedance.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 116,
+      "raw": "DOMAIN-SUFFIX,bytegate-sg.byteintlapi.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 117,
+      "raw": "DOMAIN-SUFFIX,byteoversea.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 118,
+      "raw": "DOMAIN-SUFFIX,cici.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 119,
+      "raw": "DOMAIN-SUFFIX,ciciai.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 120,
+      "raw": "DOMAIN-SUFFIX,ciciaicdn.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 121,
+      "raw": "DOMAIN-SUFFIX,coze.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 122,
+      "raw": "DOMAIN-SUFFIX,lf3-static.bytednsdoc.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 123,
+      "raw": "DOMAIN-SUFFIX,marscode.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 124,
+      "raw": "DOMAIN-SUFFIX,sf16-short-sg.bytedapm.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 125,
+      "raw": "DOMAIN-SUFFIX,starling.zijieapi.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 126,
+      "raw": "DOMAIN-SUFFIX,trae-api-sg.mchost.guru",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 127,
+      "raw": "DOMAIN-SUFFIX,trae.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 128,
+      "raw": "DOMAIN-SUFFIX,tron-sg.bytelemon.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 131,
+      "raw": "DOMAIN-SUFFIX,coze.cn",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 132,
+      "raw": "DOMAIN-SUFFIX,cozeapp.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 133,
+      "raw": "DOMAIN-SUFFIX,cozebaas.cn",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 134,
+      "raw": "DOMAIN-SUFFIX,cozebuild.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 135,
+      "raw": "DOMAIN-SUFFIX,cozecdn.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 136,
+      "raw": "DOMAIN-SUFFIX,cozedeploy.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 137,
+      "raw": "DOMAIN-SUFFIX,cozefn.cn",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 138,
+      "raw": "DOMAIN-SUFFIX,cozeide.cn",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 139,
+      "raw": "DOMAIN-SUFFIX,cozesdk.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 140,
+      "raw": "DOMAIN-SUFFIX,doudou.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 141,
+      "raw": "DOMAIN-SUFFIX,marscode.cn",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 142,
+      "raw": "DOMAIN-SUFFIX,marscode.com.cn",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 143,
+      "raw": "DOMAIN-SUFFIX,mcbaas.work",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 144,
+      "raw": "DOMAIN-SUFFIX,mcdemo.show",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 145,
+      "raw": "DOMAIN-SUFFIX,mchost.guru",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 146,
+      "raw": "DOMAIN-SUFFIX,mcprev.cn",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 147,
+      "raw": "DOMAIN-SUFFIX,tcwqqdy.guru",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 148,
+      "raw": "DOMAIN-SUFFIX,trae.cn",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 149,
+      "raw": "DOMAIN-SUFFIX,trae.com.cn",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 150,
+      "raw": "DOMAIN-SUFFIX,trae.guru",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 151,
+      "raw": "DOMAIN-SUFFIX,yoma.cn",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 154,
+      "raw": "DOMAIN-SUFFIX,cerebras.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 157,
+      "raw": "DOMAIN-SUFFIX,character.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 160,
+      "raw": "DOMAIN-SUFFIX,chutes.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 163,
+      "raw": "DOMAIN-SUFFIX,civitai.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 166,
+      "raw": "DOMAIN-SUFFIX,cline.bot",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 169,
+      "raw": "DOMAIN-SUFFIX,clipdrop.co",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 172,
+      "raw": "DOMAIN,api.cloudflare.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 173,
+      "raw": "DOMAIN-SUFFIX,ai.cloudflare.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 176,
+      "raw": "DOMAIN-SUFFIX,coderabbit.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 179,
+      "raw": "DOMAIN-SUFFIX,cohere.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 180,
+      "raw": "DOMAIN-SUFFIX,cohere.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 183,
+      "raw": "DOMAIN-SUFFIX,comfy.org",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 184,
+      "raw": "DOMAIN-SUFFIX,comfyregistry.org",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 187,
+      "raw": "DOMAIN-SUFFIX,commandcode.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 190,
+      "raw": "DOMAIN-SUFFIX,continue.dev",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 193,
+      "raw": "DOMAIN,location.microsoft.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 194,
+      "raw": "DOMAIN,odc.officeapps.live.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 195,
+      "raw": "DOMAIN-SUFFIX,copilot.microsoft.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 196,
+      "raw": "DOMAIN-SUFFIX,githubcopilot.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 199,
+      "raw": "DOMAIN,api.msn.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 200,
+      "raw": "DOMAIN,api.statsig.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 201,
+      "raw": "DOMAIN,assets.msn.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 202,
+      "raw": "DOMAIN,browser-intake-datadoghq.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 203,
+      "raw": "DOMAIN,copilot-proxy.githubusercontent.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 204,
+      "raw": "DOMAIN,copilot-workspace.githubnext.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 205,
+      "raw": "DOMAIN,copilotprodattachments.blob.core.windows.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 206,
+      "raw": "DOMAIN,gateway.bingviz.microsoft.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 207,
+      "raw": "DOMAIN,gateway.bingviz.microsoftapp.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 208,
+      "raw": "DOMAIN,in.appcenter.ms",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 209,
+      "raw": "DOMAIN,production-copilot-host-westus.webpubsub.azure.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 210,
+      "raw": "DOMAIN,self.events.data.microsoft.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 211,
+      "raw": "DOMAIN,static.cloudflareinsights.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 212,
+      "raw": "DOMAIN,sydney.bing.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 213,
+      "raw": "DOMAIN-SUFFIX,algolia.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 214,
+      "raw": "DOMAIN-SUFFIX,api.microsoftapp.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 215,
+      "raw": "DOMAIN-SUFFIX,auth0.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 216,
+      "raw": "DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 217,
+      "raw": "DOMAIN-SUFFIX,challenges.cloudflare.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 218,
+      "raw": "DOMAIN-SUFFIX,client-api.arkoselabs.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 219,
+      "raw": "DOMAIN-SUFFIX,edgeservices.bing.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 220,
+      "raw": "DOMAIN-SUFFIX,events.statsigapi.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 221,
+      "raw": "DOMAIN-SUFFIX,featuregates.org",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 222,
+      "raw": "DOMAIN-SUFFIX,identrust.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 223,
+      "raw": "DOMAIN-SUFFIX,launchdarkly.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 224,
+      "raw": "DOMAIN-SUFFIX,observeit.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 225,
+      "raw": "DOMAIN-SUFFIX,segment.io",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 226,
+      "raw": "DOMAIN-SUFFIX,stripe.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 227,
+      "raw": "IP-ASN,14061,no-resolve",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 230,
+      "raw": "DOMAIN-SUFFIX,crewai.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 233,
+      "raw": "DOMAIN-SUFFIX,cursor-cdn.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 234,
+      "raw": "DOMAIN-SUFFIX,cursor.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 235,
+      "raw": "DOMAIN-SUFFIX,cursor.sh",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 236,
+      "raw": "DOMAIN-SUFFIX,cursorapi.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 237,
+      "raw": "DOMAIN-SUFFIX,cursorvm.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 238,
+      "raw": "PROCESS-NAME,Cursor",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-all",
+      "line": 239,
+      "raw": "PROCESS-NAME,Cursor.exe",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-all",
+      "line": 240,
+      "raw": "PROCESS-NAME,cursor",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-all",
+      "line": 243,
+      "raw": "DOMAIN-SUFFIX,deepinfra.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 246,
+      "raw": "DOMAIN-SUFFIX,deepseek.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 247,
+      "raw": "DOMAIN-SUFFIX,deepseeksvc.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 250,
+      "raw": "DOMAIN-SUFFIX,descript.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 253,
+      "raw": "DOMAIN-SUFFIX,devin.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 256,
+      "raw": "DOMAIN-SUFFIX,diabrowser.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 257,
+      "raw": "DOMAIN-SUFFIX,diabrowser.engineering",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 260,
+      "raw": "DOMAIN-SUFFIX,dify.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 263,
+      "raw": "DOMAIN-SUFFIX,duck.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 266,
+      "raw": "DOMAIN-SUFFIX,eigent.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 269,
+      "raw": "DOMAIN-SUFFIX,elevenlabs.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 270,
+      "raw": "DOMAIN-SUFFIX,elevenlabs.io",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 271,
+      "raw": "DOMAIN-SUFFIX,elevenlabsusercontent.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 274,
+      "raw": "DOMAIN-SUFFIX,factory.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 277,
+      "raw": "DOMAIN-SUFFIX,fireworks.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 280,
+      "raw": "DOMAIN-SUFFIX,gamma.app",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 283,
+      "raw": "DOMAIN-SUFFIX,genspark.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 300,
+      "raw": "PROCESS-NAME,Antigravity",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-all",
+      "line": 301,
+      "raw": "PROCESS-NAME,Antigravity.exe",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-all",
+      "line": 302,
+      "raw": "PROCESS-NAME,antigravity",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-all",
+      "line": 344,
+      "raw": "DOMAIN-SUFFIX,grammarly.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 347,
+      "raw": "DOMAIN-SUFFIX,groq.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 350,
+      "raw": "DOMAIN-SUFFIX,h2o.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 353,
+      "raw": "DOMAIN-SUFFIX,hermes-agent.nousresearch.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 356,
+      "raw": "DOMAIN-SUFFIX,heygen.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 359,
+      "raw": "DOMAIN-SUFFIX,hf.co",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 360,
+      "raw": "DOMAIN-SUFFIX,hf.space",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 361,
+      "raw": "DOMAIN-SUFFIX,huggingface.co",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 364,
+      "raw": "DOMAIN-SUFFIX,ideogram.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 367,
+      "raw": "DOMAIN-SUFFIX,inflection.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 368,
+      "raw": "DOMAIN-SUFFIX,pi.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 371,
+      "raw": "DOMAIN-SUFFIX,jasper.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 374,
+      "raw": "DOMAIN-SUFFIX,grazie.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 375,
+      "raw": "DOMAIN-SUFFIX,grazie.aws.intellij.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 376,
+      "raw": "DOMAIN-SUFFIX,jetbrains.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 379,
+      "raw": "DOMAIN-SUFFIX,kilo.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 380,
+      "raw": "DOMAIN-SUFFIX,kilo.codes",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 383,
+      "raw": "DOMAIN-SUFFIX,kiro.dev",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 386,
+      "raw": "DOMAIN-SUFFIX,langchain.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 389,
+      "raw": "DOMAIN-SUFFIX,leonardo.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 392,
+      "raw": "DOMAIN-SUFFIX,lmarena.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 395,
+      "raw": "DOMAIN-SUFFIX,lmstudio.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 398,
+      "raw": "DOMAIN-SUFFIX,lovable.dev",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 401,
+      "raw": "DOMAIN-SUFFIX,lovart.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 404,
+      "raw": "DOMAIN-SUFFIX,lumalabs.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 407,
+      "raw": "DOMAIN-SUFFIX,manus.im",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 408,
+      "raw": "DOMAIN-SUFFIX,manuscdn.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 411,
+      "raw": "DOMAIN,ai.developer.meta.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 412,
+      "raw": "DOMAIN,ai.meta.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 413,
+      "raw": "DOMAIN,aidemos.meta.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 414,
+      "raw": "DOMAIN,developer.meta.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 415,
+      "raw": "DOMAIN,llama.developer.meta.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 416,
+      "raw": "DOMAIN-SUFFIX,atmeta.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 417,
+      "raw": "DOMAIN-SUFFIX,llama.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 418,
+      "raw": "DOMAIN-SUFFIX,llamameta.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 419,
+      "raw": "DOMAIN-SUFFIX,meta.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 420,
+      "raw": "DOMAIN-SUFFIX,metaaiusercontent.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 421,
+      "raw": "DOMAIN-SUFFIX,metaaivm.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 422,
+      "raw": "DOMAIN-SUFFIX,muse.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 425,
+      "raw": "DOMAIN-SUFFIX,midjourney.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 428,
+      "raw": "DOMAIN,api.minimax.io",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 429,
+      "raw": "DOMAIN,api.minimaxi.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 430,
+      "raw": "DOMAIN-SUFFIX,hailuoai.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 431,
+      "raw": "DOMAIN-SUFFIX,xingyeai.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 434,
+      "raw": "DOMAIN-SUFFIX,mistral.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 437,
+      "raw": "DOMAIN-SUFFIX,modelscope.cn",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 438,
+      "raw": "DOMAIN-SUFFIX,modelscope.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 441,
+      "raw": "DOMAIN-SUFFIX,kimi.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 442,
+      "raw": "DOMAIN-SUFFIX,moonshot.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 443,
+      "raw": "DOMAIN-SUFFIX,moonshot.cn",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 446,
+      "raw": "DOMAIN-SUFFIX,novita.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 449,
+      "raw": "DOMAIN-SUFFIX,ollama.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 452,
+      "raw": "DOMAIN-SUFFIX,ai.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 453,
+      "raw": "DOMAIN-SUFFIX,chat.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 454,
+      "raw": "DOMAIN-SUFFIX,chatgpt.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 455,
+      "raw": "DOMAIN-SUFFIX,chatgpt.livekit.cloud",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 456,
+      "raw": "DOMAIN-SUFFIX,crixet.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 457,
+      "raw": "DOMAIN-SUFFIX,oaistatic.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 458,
+      "raw": "DOMAIN-SUFFIX,oaiusercontent.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 459,
+      "raw": "DOMAIN-SUFFIX,openai.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 460,
+      "raw": "DOMAIN-SUFFIX,openaiapi-site.azureedge.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 461,
+      "raw": "DOMAIN-SUFFIX,openaicom.imgix.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 462,
+      "raw": "DOMAIN-SUFFIX,sora.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 463,
+      "raw": "DOMAIN-KEYWORD,chatgpt-async-webps-prod",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 464,
+      "raw": "DOMAIN-KEYWORD,openai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 465,
+      "raw": "PROCESS-NAME,ChatGPT",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-all",
+      "line": 466,
+      "raw": "PROCESS-NAME,ChatGPT.exe",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-all",
+      "line": 467,
+      "raw": "PROCESS-NAME,Codex",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-all",
+      "line": 468,
+      "raw": "PROCESS-NAME,Codex.exe",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-all",
+      "line": 469,
+      "raw": "PROCESS-NAME,chatgpt",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-all",
+      "line": 470,
+      "raw": "PROCESS-NAME,codex",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-all",
+      "line": 473,
+      "raw": "IP-CIDR,199.47.142.0/23,no-resolve",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 474,
+      "raw": "IP-CIDR,24.199.123.28/32,no-resolve",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 475,
+      "raw": "IP-CIDR,64.23.132.171/32,no-resolve",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 476,
+      "raw": "IP-CIDR6,2604:f20::/32,no-resolve",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 477,
+      "raw": "IP-ASN,401518,no-resolve",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 480,
+      "raw": "DOMAIN,openai-api.arkoselabs.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 481,
+      "raw": "DOMAIN,openaiassets.blob.core.windows.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 482,
+      "raw": "DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 483,
+      "raw": "DOMAIN,openaicomproductionae4b.blob.core.windows.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 484,
+      "raw": "DOMAIN,production-openaicom-storage.azureedge.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 485,
+      "raw": "DOMAIN-SUFFIX,api.statsig.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 486,
+      "raw": "DOMAIN-SUFFIX,chatgpt.site",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 487,
+      "raw": "DOMAIN-SUFFIX,host.livekit.cloud",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 488,
+      "raw": "DOMAIN-SUFFIX,oaistatsig.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 489,
+      "raw": "DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 490,
+      "raw": "DOMAIN-SUFFIX,openai.org",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 491,
+      "raw": "DOMAIN-SUFFIX,turn.livekit.cloud",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 494,
+      "raw": "DOMAIN-SUFFIX,openart.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 497,
+      "raw": "DOMAIN-SUFFIX,openclaw.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 500,
+      "raw": "DOMAIN-SUFFIX,opencode.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 503,
+      "raw": "DOMAIN-SUFFIX,openrouter.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 506,
+      "raw": "DOMAIN-SUFFIX,otter.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 509,
+      "raw": "DOMAIN,ppl-ai-file-upload.s3.amazonaws.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 510,
+      "raw": "DOMAIN,pplx-res.cloudinary.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 511,
+      "raw": "DOMAIN-SUFFIX,perplexity.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 512,
+      "raw": "DOMAIN-SUFFIX,perplexity.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 513,
+      "raw": "DOMAIN-SUFFIX,pplx.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 516,
+      "raw": "DOMAIN-SUFFIX,phind.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 519,
+      "raw": "DOMAIN-SUFFIX,pika.art",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 522,
+      "raw": "DOMAIN-SUFFIX,poe.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 523,
+      "raw": "DOMAIN-SUFFIX,poecdn.net",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 526,
+      "raw": "DOMAIN-SUFFIX,ppio.cn",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 527,
+      "raw": "DOMAIN-SUFFIX,ppio.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 530,
+      "raw": "DOMAIN-SUFFIX,qoder.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 533,
+      "raw": "DOMAIN-SUFFIX,recraft.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 536,
+      "raw": "DOMAIN-SUFFIX,replicate.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 537,
+      "raw": "DOMAIN-SUFFIX,replicate.delivery",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 540,
+      "raw": "DOMAIN-SUFFIX,repl.co",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 541,
+      "raw": "DOMAIN-SUFFIX,repl.it",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 542,
+      "raw": "DOMAIN-SUFFIX,replit.app",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 543,
+      "raw": "DOMAIN-SUFFIX,replit.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 544,
+      "raw": "DOMAIN-SUFFIX,replit.dev",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 547,
+      "raw": "DOMAIN-SUFFIX,runway.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 548,
+      "raw": "DOMAIN-SUFFIX,runwayml.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 551,
+      "raw": "DOMAIN-SUFFIX,siliconflow.cn",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 552,
+      "raw": "DOMAIN-SUFFIX,siliconflow.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 555,
+      "raw": "DOMAIN-SUFFIX,ampcode.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 556,
+      "raw": "DOMAIN-SUFFIX,ampworkers.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 557,
+      "raw": "DOMAIN-SUFFIX,cody.dev",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 558,
+      "raw": "DOMAIN-SUFFIX,sourcegraph.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 561,
+      "raw": "DOMAIN-SUFFIX,stability.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 564,
+      "raw": "DOMAIN-SUFFIX,stepfun.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 565,
+      "raw": "DOMAIN-SUFFIX,stepfun.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 568,
+      "raw": "DOMAIN-SUFFIX,suno.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 569,
+      "raw": "DOMAIN-SUFFIX,suno.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 572,
+      "raw": "DOMAIN-SUFFIX,synthesia.io",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 575,
+      "raw": "DOMAIN-SUFFIX,tabnine.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 578,
+      "raw": "DOMAIN,api.hunyuan.cloud.tencent.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 579,
+      "raw": "DOMAIN,hunyuan.tencentcloudapi.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 580,
+      "raw": "DOMAIN-SUFFIX,hunyuan.tencent.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 581,
+      "raw": "DOMAIN-SUFFIX,yuanbao.tencent.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 582,
+      "raw": "DOMAIN-SUFFIX,yuanqi.tencent.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 585,
+      "raw": "DOMAIN-SUFFIX,together.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 586,
+      "raw": "DOMAIN-SUFFIX,together.xyz",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 589,
+      "raw": "DOMAIN-SUFFIX,udio.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 592,
+      "raw": "DOMAIN-SUFFIX,v0.app",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 593,
+      "raw": "DOMAIN-SUFFIX,v0.dev",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 596,
+      "raw": "DOMAIN,ark.cn-beijing.volces.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 597,
+      "raw": "DOMAIN-SUFFIX,doubao.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 600,
+      "raw": "DOMAIN-SUFFIX,codeium.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 601,
+      "raw": "DOMAIN-SUFFIX,codeiumdata.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 602,
+      "raw": "DOMAIN-SUFFIX,windsurf.build",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 603,
+      "raw": "DOMAIN-SUFFIX,windsurf.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 604,
+      "raw": "PROCESS-NAME,Windsurf",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-all",
+      "line": 605,
+      "raw": "PROCESS-NAME,Windsurf.exe",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-all",
+      "line": 606,
+      "raw": "PROCESS-NAME,windsurf",
+      "reason": "outside_domain_public_ip_scope"
+    },
+    {
+      "source": "vps-all",
+      "line": 609,
+      "raw": "DOMAIN-SUFFIX,grok.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 610,
+      "raw": "DOMAIN-SUFFIX,grok.x.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 611,
+      "raw": "DOMAIN-SUFFIX,grokbot.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 612,
+      "raw": "DOMAIN-SUFFIX,grokipedia.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 613,
+      "raw": "DOMAIN-SUFFIX,x.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 616,
+      "raw": "DOMAIN-SUFFIX,miaibox.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 617,
+      "raw": "DOMAIN-SUFFIX,xiaoaiassist.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 618,
+      "raw": "DOMAIN-SUFFIX,xiaomimimo.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 621,
+      "raw": "DOMAIN-SUFFIX,you.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 624,
+      "raw": "DOMAIN-SUFFIX,youmind.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 625,
+      "raw": "DOMAIN-SUFFIX,youmind.com",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 626,
+      "raw": "DOMAIN-SUFFIX,youmind.site",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 629,
+      "raw": "DOMAIN-SUFFIX,zed.dev",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 632,
+      "raw": "DOMAIN-SUFFIX,bigmodel.cn",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 633,
+      "raw": "DOMAIN-SUFFIX,chatglm.cn",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 634,
+      "raw": "DOMAIN-SUFFIX,z.ai",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 635,
+      "raw": "DOMAIN-SUFFIX,zhipuai.cn",
+      "reason": "non_google_provider_or_network"
+    },
+    {
+      "source": "vps-all",
+      "line": 636,
+      "raw": "DOMAIN-SUFFIX,zhipucn.com",
+      "reason": "non_google_provider_or_network"
+    }
+  ]
+}

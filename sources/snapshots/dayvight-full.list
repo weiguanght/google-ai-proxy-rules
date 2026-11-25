@@ -1,0 +1,19 @@
+# ============================================================
+# Loon 规则集 · Google 全域兜底（加强版）
+# ============================================================
+# 与 antigravity-google-auth.list 二选一。
+# 精确版只补 15 个具体缺口；本文件用 7 条后缀接管整个 Google 生态，
+# 后续 Google 新增的任何域名都不会再漏，代价是 Gmail / Play / YouTube
+# 等全部流量也会走代理。
+#
+# 用法（Loon 配置的 [Remote Rule] 段）：
+#   https://raw.githubusercontent.com/dayvight/loon-antigravity-rules/main/rules/google-full.list, policy=AI 手动, tag=Google-Full, enabled=true
+# ============================================================
+
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,goog
+DOMAIN-SUFFIX,appspot.com
+DOMAIN-SUFFIX,run.app

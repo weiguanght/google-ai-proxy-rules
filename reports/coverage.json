@@ -1,0 +1,424 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-11-26",
+  "timezone": "Asia/Shanghai",
+  "comparison": "static domain/rule matching; no live network connectivity test",
+  "baseline": {
+    "covered": 24,
+    "total": 24,
+    "cases": [
+      {
+        "domain": "antigravity.google",
+        "purpose": "Antigravity 主域",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,antigravity",
+          "DOMAIN-KEYWORD,google"
+        ]
+      },
+      {
+        "domain": "antigravity-unleash.goog",
+        "purpose": "Antigravity 特性开关",
+        "covered": true,
+        "matches": [
+          "DOMAIN-SUFFIX,goog",
+          "DOMAIN-KEYWORD,antigravity"
+        ]
+      },
+      {
+        "domain": "antigravity-pa.googleapis.com",
+        "purpose": "Antigravity 后端",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,antigravity",
+          "DOMAIN-KEYWORD,google"
+        ]
+      },
+      {
+        "domain": "antigravity.googleapis.com",
+        "purpose": "Antigravity 后端",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,antigravity",
+          "DOMAIN-KEYWORD,google"
+        ]
+      },
+      {
+        "domain": "accounts.google.com",
+        "purpose": "OAuth 登录必经",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,google"
+        ]
+      },
+      {
+        "domain": "myaccount.google.com",
+        "purpose": "账号页 / ToS 国家",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,google"
+        ]
+      },
+      {
+        "domain": "ogs.google.com",
+        "purpose": "登录页服务菜单",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,google"
+        ]
+      },
+      {
+        "domain": "apis.google.com",
+        "purpose": "Google 账号框架",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,google"
+        ]
+      },
+      {
+        "domain": "clients6.google.com",
+        "purpose": "登录页伴随请求",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,google"
+        ]
+      },
+      {
+        "domain": "content-autofill.googleapis.com",
+        "purpose": "登录表单填充",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,google"
+        ]
+      },
+      {
+        "domain": "oauth2.googleapis.com",
+        "purpose": "token 刷新",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,google"
+        ]
+      },
+      {
+        "domain": "www.googleapis.com",
+        "purpose": "通用 API",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,google"
+        ]
+      },
+      {
+        "domain": "storage.googleapis.com",
+        "purpose": "安装包 / 素材",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,google"
+        ]
+      },
+      {
+        "domain": "cloudcode-pa.googleapis.com",
+        "purpose": "Antigravity 主 API",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,cloudcode",
+          "DOMAIN-KEYWORD,google"
+        ]
+      },
+      {
+        "domain": "daily-cloudcode-pa.googleapis.com",
+        "purpose": "Antigravity 主 API daily",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,cloudcode",
+          "DOMAIN-KEYWORD,google"
+        ]
+      },
+      {
+        "domain": "daily-cloudcode-pa.sandbox.googleapis.com",
+        "purpose": "Antigravity 沙箱",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,cloudcode",
+          "DOMAIN-KEYWORD,google"
+        ]
+      },
+      {
+        "domain": "aida.googleapis.com",
+        "purpose": "Gemini 后端",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,google"
+        ]
+      },
+      {
+        "domain": "aiplatform.googleapis.com",
+        "purpose": "Vertex AI",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,google"
+        ]
+      },
+      {
+        "domain": "generativelanguage.googleapis.com",
+        "purpose": "Gemini API",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,generativelanguage",
+          "DOMAIN-KEYWORD,google"
+        ]
+      },
+      {
+        "domain": "lh3.googleusercontent.com",
+        "purpose": "头像 / 图片",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,google"
+        ]
+      },
+      {
+        "domain": "ssl.gstatic.com",
+        "purpose": "静态资源",
+        "covered": true,
+        "matches": [
+          "DOMAIN-SUFFIX,gstatic.com"
+        ]
+      },
+      {
+        "domain": "www.google.com",
+        "purpose": "Google 主站",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,google"
+        ]
+      },
+      {
+        "domain": "play.google.com",
+        "purpose": "Play",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,google"
+        ]
+      },
+      {
+        "domain": "mail.google.com",
+        "purpose": "Gmail",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,google"
+        ]
+      }
+    ]
+  },
+  "extended": {
+    "covered": 19,
+    "total": 19,
+    "cases": [
+      {
+        "domain": "ai.studio",
+        "purpose": "AI Studio 独立域名",
+        "covered": true,
+        "matches": [
+          "DOMAIN-SUFFIX,ai.studio"
+        ]
+      },
+      {
+        "domain": "gemma.ai",
+        "purpose": "Gemma",
+        "covered": true,
+        "matches": [
+          "DOMAIN-SUFFIX,gemma.ai"
+        ]
+      },
+      {
+        "domain": "deepmind.com",
+        "purpose": "DeepMind",
+        "covered": true,
+        "matches": [
+          "DOMAIN-SUFFIX,deepmind.com"
+        ]
+      },
+      {
+        "domain": "gemini.google",
+        "purpose": "Gemini 独立主域",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,google"
+        ]
+      },
+      {
+        "domain": "notebooklm.google",
+        "purpose": "NotebookLM 独立主域",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,google"
+        ]
+      },
+      {
+        "domain": "jules.google",
+        "purpose": "Jules",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,google"
+        ]
+      },
+      {
+        "domain": "flow.google",
+        "purpose": "Flow",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,google"
+        ]
+      },
+      {
+        "domain": "opal.google",
+        "purpose": "Opal",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,google"
+        ]
+      },
+      {
+        "domain": "googlevideo.com",
+        "purpose": "Google 视频资源",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,google"
+        ]
+      },
+      {
+        "domain": "gcr.io",
+        "purpose": "Google Container Registry",
+        "covered": true,
+        "matches": [
+          "DOMAIN-SUFFIX,gcr.io"
+        ]
+      },
+      {
+        "domain": "run.app",
+        "purpose": "Cloud Run 公共后缀",
+        "covered": true,
+        "matches": [
+          "DOMAIN-SUFFIX,run.app"
+        ]
+      },
+      {
+        "domain": "appspot.com",
+        "purpose": "App Engine 公共后缀",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,appspot"
+        ]
+      },
+      {
+        "domain": "ai.google.dev",
+        "purpose": "Google AI 开发入口",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,google"
+        ]
+      },
+      {
+        "domain": "probe.goog",
+        "purpose": "验证 .goog 后缀覆盖",
+        "covered": true,
+        "matches": [
+          "DOMAIN-SUFFIX,goog"
+        ]
+      },
+      {
+        "domain": "colab.example.net",
+        "purpose": "验证 colab 源关键词范围",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,colab"
+        ]
+      },
+      {
+        "domain": "developerprofiles.example.net",
+        "purpose": "验证 developerprofiles 源关键词范围",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,developerprofiles"
+        ]
+      },
+      {
+        "domain": "generativelanguage.example.net",
+        "purpose": "验证 generativelanguage 源关键词范围",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,generativelanguage"
+        ]
+      },
+      {
+        "domain": "cloudcode.example.net",
+        "purpose": "验证 cloudcode 源关键词范围",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,cloudcode"
+        ]
+      },
+      {
+        "domain": "antigravity.example.net",
+        "purpose": "验证 antigravity 源关键词范围",
+        "covered": true,
+        "matches": [
+          "DOMAIN-KEYWORD,antigravity"
+        ]
+      }
+    ]
+  },
+  "source_union": {
+    "candidate_occurrences": 917,
+    "unique_rules": 773,
+    "fully_covered": 773,
+    "uncovered": []
+  },
+  "statistics": {
+    "domain_rules": 352,
+    "network_rules": 5,
+    "total_rules": 357,
+    "rule_kinds": {
+      "DOMAIN-SUFFIX": 342,
+      "DOMAIN-KEYWORD": 10,
+      "IP-CIDR": 4,
+      "IP-CIDR6": 1
+    },
+    "candidate_occurrences_by_source": {
+      "bm7-google": 695,
+      "bm7-gemini": 13,
+      "dayvight-auth": 16,
+      "dayvight-full": 7,
+      "vps-google-ai": 51,
+      "xukun-install-js": 10,
+      "xukun-install-py": 10,
+      "xukun-pac": 11,
+      "vps-global": 52,
+      "vps-all": 52
+    },
+    "excluded_occurrences_by_source": {
+      "bm7-google": 3,
+      "vps-google-ai": 3,
+      "xukun-pac": 4,
+      "vps-global": 298,
+      "vps-all": 365
+    }
+  },
+  "public_networks": {
+    "ipv4": {
+      "cidrs": [
+        "74.125.0.0/16",
+        "172.110.32.0/21",
+        "173.194.0.0/16",
+        "216.73.80.0/20"
+      ],
+      "addresses": "137216"
+    },
+    "ipv6": {
+      "cidrs": [
+        "2620:120:e000::/40"
+      ],
+      "addresses": "309485009821345068724781056"
+    },
+    "asns": []
+  }
+}

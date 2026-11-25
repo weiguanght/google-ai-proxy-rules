@@ -1,0 +1,12 @@
+# 此 URL 已指向项目仓库；将 Google-AI 换成你已有的策略组名。
+rule-providers:
+  Google-AI:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/weiguanght/google-ai-proxy-rules/main/rules/clash/Google-AI.yaml
+    path: ./rule-providers/Google-AI.yaml
+    interval: 86400
+rules:
+  - RULE-SET,Google-AI,Google-AI
+# 将 RULE-SET 放在会抢先命中的通用规则和 MATCH 之前。

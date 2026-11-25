@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "baseline_source": "https://github.com/dayvight/loon-antigravity-rules/blob/15cfe975509ec30d079a2e74a0b104edce653b06/scripts/check-coverage.mjs#L41-L66",
+  "baseline": [
+    {
+      "domain": "antigravity.google",
+      "purpose": "Antigravity 主域"
+    },
+    {
+      "domain": "antigravity-unleash.goog",
+      "purpose": "Antigravity 特性开关"
+    },
+    {
+      "domain": "antigravity-pa.googleapis.com",
+      "purpose": "Antigravity 后端"
+    },
+    {
+      "domain": "antigravity.googleapis.com",
+      "purpose": "Antigravity 后端"
+    },
+    {
+      "domain": "accounts.google.com",
+      "purpose": "OAuth 登录必经"
+    },
+    {
+      "domain": "myaccount.google.com",
+      "purpose": "账号页 / ToS 国家"
+    },
+    {
+      "domain": "ogs.google.com",
+      "purpose": "登录页服务菜单"
+    },
+    {
+      "domain": "apis.google.com",
+      "purpose": "Google 账号框架"
+    },
+    {
+      "domain": "clients6.google.com",
+      "purpose": "登录页伴随请求"
+    },
+    {
+      "domain": "content-autofill.googleapis.com",
+      "purpose": "登录表单填充"
+    },
+    {
+      "domain": "oauth2.googleapis.com",
+      "purpose": "token 刷新"
+    },
+    {
+      "domain": "www.googleapis.com",
+      "purpose": "通用 API"
+    },
+    {
+      "domain": "storage.googleapis.com",
+      "purpose": "安装包 / 素材"
+    },
+    {
+      "domain": "cloudcode-pa.googleapis.com",
+      "purpose": "Antigravity 主 API"
+    },
+    {
+      "domain": "daily-cloudcode-pa.googleapis.com",
+      "purpose": "Antigravity 主 API daily"
+    },
+    {
+      "domain": "daily-cloudcode-pa.sandbox.googleapis.com",
+      "purpose": "Antigravity 沙箱"
+    },
+    {
+      "domain": "aida.googleapis.com",
+      "purpose": "Gemini 后端"
+    },
+    {
+      "domain": "aiplatform.googleapis.com",
+      "purpose": "Vertex AI"
+    },
+    {
+      "domain": "generativelanguage.googleapis.com",
+      "purpose": "Gemini API"
+    },
+    {
+      "domain": "lh3.googleusercontent.com",
+      "purpose": "头像 / 图片"
+    },
+    {
+      "domain": "ssl.gstatic.com",
+      "purpose": "静态资源"
+    },
+    {
+      "domain": "www.google.com",
+      "purpose": "Google 主站"
+    },
+    {
+      "domain": "play.google.com",
+      "purpose": "Play"
+    },
+    {
+      "domain": "mail.google.com",
+      "purpose": "Gmail"
+    }
+  ],
+  "extended": [
+    {
+      "domain": "ai.studio",
+      "purpose": "AI Studio 独立域名"
+    },
+    {
+      "domain": "gemma.ai",
+      "purpose": "Gemma"
+    },
+    {
+      "domain": "deepmind.com",
+      "purpose": "DeepMind"
+    },
+    {
+      "domain": "gemini.google",
+      "purpose": "Gemini 独立主域"
+    },
+    {
+      "domain": "notebooklm.google",
+      "purpose": "NotebookLM 独立主域"
+    },
+    {
+      "domain": "jules.google",
+      "purpose": "Jules"
+    },
+    {
+      "domain": "flow.google",
+      "purpose": "Flow"
+    },
+    {
+      "domain": "opal.google",
+      "purpose": "Opal"
+    },
+    {
+      "domain": "googlevideo.com",
+      "purpose": "Google 视频资源"
+    },
+    {
+      "domain": "gcr.io",
+      "purpose": "Google Container Registry"
+    },
+    {
+      "domain": "run.app",
+      "purpose": "Cloud Run 公共后缀"
+    },
+    {
+      "domain": "appspot.com",
+      "purpose": "App Engine 公共后缀"
+    },
+    {
+      "domain": "ai.google.dev",
+      "purpose": "Google AI 开发入口"
+    },
+    {
+      "domain": "probe.goog",
+      "purpose": "验证 .goog 后缀覆盖"
+    },
+    {
+      "domain": "colab.example.net",
+      "purpose": "验证 colab 源关键词范围"
+    },
+    {
+      "domain": "developerprofiles.example.net",
+      "purpose": "验证 developerprofiles 源关键词范围"
+    },
+    {
+      "domain": "generativelanguage.example.net",
+      "purpose": "验证 generativelanguage 源关键词范围"
+    },
+    {
+      "domain": "cloudcode.example.net",
+      "purpose": "验证 cloudcode 源关键词范围"
+    },
+    {
+      "domain": "antigravity.example.net",
+      "purpose": "验证 antigravity 源关键词范围"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "timezone": "Asia/Shanghai",
+  "patch_keywords": [
+    "google",
+    "antigravity",
+    "cloudcode"
+  ],
+  "pac_google_roots": [
+    "googleapis.com",
+    "google.com",
+    "gstatic.com",
+    "googleusercontent.com",
+    "googlevideo.com",
+    "gcr.io",
+    "run.app",
+    "appspot.com",
+    "antigravity.google",
+    "ai.google.dev"
+  ],
+  "sources": [
+    {
+      "id": "bm7-google",
+      "repo": "blackmatrix7/ios_rule_script",
+      "ref": "master",
+      "path": "rule/Loon/Google/Google.list",
+      "mode": "google-list",
+      "local_path": "sources/snapshots/bm7-google.list"
+    },
+    {
+      "id": "bm7-gemini",
+      "repo": "blackmatrix7/ios_rule_script",
+      "ref": "master",
+      "path": "rule/Loon/Gemini/Gemini.list",
+      "mode": "google-list",
+      "local_path": "sources/snapshots/bm7-gemini.list"
+    },
+    {
+      "id": "dayvight-auth",
+      "repo": "dayvight/loon-antigravity-rules",
+      "ref": "main",
+      "path": "rules/google-auth.list",
+      "mode": "google-list",
+      "local_path": "sources/snapshots/dayvight-auth.list"
+    },
+    {
+      "id": "dayvight-full",
+      "repo": "dayvight/loon-antigravity-rules",
+      "ref": "main",
+      "path": "rules/google-full.list",
+      "mode": "google-list",
+      "local_path": "sources/snapshots/dayvight-full.list"
+    },
+    {
+      "id": "xukun-install-js",
+      "repo": "xukuncai-hub/antigravity-proxy",
+      "ref": "main",
+      "path": "install.js",
+      "mode": "patch-js",
+      "local_path": "sources/snapshots/xukun-install-js.js"
+    },
+    {
+      "id": "xukun-install-py",
+      "repo": "xukuncai-hub/antigravity-proxy",
+      "ref": "main",
+      "path": "install.py",
+      "mode": "patch-py",
+      "local_path": "sources/snapshots/xukun-install-py.py"
+    },
+    {
+      "id": "xukun-pac",
+      "repo": "xukuncai-hub/antigravity-proxy",
+      "ref": "main",
+      "path": "src/proxy_patch.js",
+      "mode": "patch-pac",
+      "local_path": "sources/snapshots/xukun-pac.js"
+    },
+    {
+      "id": "vps-google-ai",
+      "repo": "VPSDance/ai-proxy-rules",
+      "ref": "main",
+      "path": "rules/loon/google-ai.list",
+      "mode": "google-list",
+      "local_path": "sources/snapshots/vps-google-ai.list"
+    },
+    {
+      "id": "vps-global",
+      "repo": "VPSDance/ai-proxy-rules",
+      "ref": "main",
+      "path": "rules/loon/global.list",
+      "mode": "google-filter",
+      "local_path": "sources/snapshots/vps-global.list"
+    },
+    {
+      "id": "vps-all",
+      "repo": "VPSDance/ai-proxy-rules",
+      "ref": "main",
+      "path": "rules/loon/all.list",
+      "mode": "google-filter",
+      "local_path": "sources/snapshots/vps-all.list"
+    }
+  ],
+  "licenses": [
+    {
+      "repo": "blackmatrix7/ios_rule_script",
+      "path": "LICENSE",
+      "local_path": "licenses/blackmatrix7-LICENSE.txt"
+    },
+    {
+      "repo": "dayvight/loon-antigravity-rules",
+      "path": "LICENSE",
+      "local_path": "licenses/dayvight-LICENSE.txt"
+    },
+    {
+      "repo": "xukuncai-hub/antigravity-proxy",
+      "path": "LICENSE",
+      "local_path": "licenses/xukuncai-hub-LICENSE.txt"
+    },
+    {
+      "repo": "VPSDance/ai-proxy-rules",
+      "path": "LICENSE",
+      "local_path": "licenses/VPSDance-LICENSE.txt"
+    }
+  ]
+}

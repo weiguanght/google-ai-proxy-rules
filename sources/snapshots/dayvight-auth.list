@@ -1,0 +1,42 @@
+# ============================================================
+# Loon 规则集 · Antigravity / Google 登录链路补充
+# ============================================================
+# 为什么需要这份规则：
+#   kelee 的 AI.lsr 与 VPSDance 的 ai-proxy-rules 都只收录「AI 产品域名」，
+#   不包含 Google 通用账号 / OAuth 登录链路。结果是 Antigravity 本体流量
+#   走了代理节点，但登录那一步（accounts.google.com）落到兜底策略，
+#   被 Google 判定为 "not available in your location"。
+#
+# 覆盖范围：
+#   本文件仅包含上述两份规则集「都没有覆盖」的域名，作为补充包使用。
+#
+# 用法（Loon 配置的 [Remote Rule] 段）：
+#   https://raw.githubusercontent.com/dayvight/loon-antigravity-rules/main/rules/google-auth.list, policy=AI 手动, tag=Google-Auth, enabled=true
+#
+# policy 请替换为你自己的代理策略组名。
+# ============================================================
+
+# ---------- 1. Google 账号 / OAuth 登录链路 ----------
+# 两份规则集均缺失。accounts.google.com 是 OAuth 登录必经，缺它必被地区拦截。
+DOMAIN,accounts.google.com
+DOMAIN-SUFFIX,accounts.google.com
+DOMAIN,myaccount.google.com
+DOMAIN,ogs.google.com
+DOMAIN,apis.google.com
+DOMAIN-SUFFIX,clients6.google.com
+DOMAIN,content-autofill.googleapis.com
+
+# ---------- 2. Google API / Token 端点 ----------
+DOMAIN,oauth2.googleapis.com
+DOMAIN,www.googleapis.com
+DOMAIN,aiplatform.googleapis.com
+DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com
+
+# ---------- 3. 静态资源 / 账号头像 / 页面素材 ----------
+DOMAIN,lh3.googleusercontent.com
+DOMAIN,ssl.gstatic.com
+
+# ---------- 4. Google 通用服务 ----------
+DOMAIN,www.google.com
+DOMAIN,play.google.com
+DOMAIN,mail.google.com

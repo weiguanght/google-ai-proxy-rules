@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-11-26",
+  "timezone": "Asia/Shanghai",
+  "repositories": {
+    "blackmatrix7/ios_rule_script": {
+      "ref": "master",
+      "default_branch": "master",
+      "commit": "0b6897dc17e0c513d25449c935a9694818e32f0c",
+      "commit_date_utc": "2026-10-27T21:45:18Z",
+      "license_spdx": "GPL-2.0",
+      "license_url": "https://api.github.com/licenses/gpl-2.0"
+    },
+    "dayvight/loon-antigravity-rules": {
+      "ref": "main",
+      "default_branch": "main",
+      "commit": "15cfe975509ec30d079a2e74a0b104edce653b06",
+      "commit_date_utc": "2026-11-25T01:09:33Z",
+      "license_spdx": "MIT",
+      "license_url": "https://api.github.com/licenses/mit"
+    },
+    "xukuncai-hub/antigravity-proxy": {
+      "ref": "main",
+      "default_branch": "main",
+      "commit": "f482397d69b133a942d3ebfd255b1dd8ffd4e8ba",
+      "commit_date_utc": "2026-11-23T10:27:21Z",
+      "license_spdx": "MIT",
+      "license_url": "https://api.github.com/licenses/mit"
+    },
+    "VPSDance/ai-proxy-rules": {
+      "ref": "main",
+      "default_branch": "main",
+      "commit": "1fe3a3db476eaae38837a3690daf57838faf6ca0",
+      "commit_date_utc": "2026-11-25T05:09:26Z",
+      "license_spdx": "MIT",
+      "license_url": "https://api.github.com/licenses/mit"
+    }
+  },
+  "sources": [
+    {
+      "id": "bm7-google",
+      "repo": "blackmatrix7/ios_rule_script",
+      "ref": "master",
+      "path": "rule/Loon/Google/Google.list",
+      "mode": "google-list",
+      "local_path": "sources/snapshots/bm7-google.list",
+      "commit": "0b6897dc17e0c513d25449c935a9694818e32f0c",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/0b6897dc17e0c513d25449c935a9694818e32f0c/rule/Loon/Google/Google.list",
+      "sha256": "8ad1014c13d43d907bf4b22095e2b74e8f5488abfc4ef5b6f4a9a4331897fd6a",
+      "bytes": 19792,
+      "lines": 709
+    },
+    {
+      "id": "bm7-gemini",
+      "repo": "blackmatrix7/ios_rule_script",
+      "ref": "master",
+      "path": "rule/Loon/Gemini/Gemini.list",
+      "mode": "google-list",
+      "local_path": "sources/snapshots/bm7-gemini.list",
+      "commit": "0b6897dc17e0c513d25449c935a9694818e32f0c",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/0b6897dc17e0c513d25449c935a9694818e32f0c/rule/Loon/Gemini/Gemini.list",
+      "sha256": "db8f69154426dca76792ab80b3ad6b0e2d078ebe0e52e76faec1724245a4ec49",
+      "bytes": 605,
+      "lines": 21
+    },
+    {
+      "id": "dayvight-auth",
+      "repo": "dayvight/loon-antigravity-rules",
+      "ref": "main",
+      "path": "rules/google-auth.list",
+      "mode": "google-list",
+      "local_path": "sources/snapshots/dayvight-auth.list",
+      "commit": "15cfe975509ec30d079a2e74a0b104edce653b06",
+      "url": "https://raw.githubusercontent.com/dayvight/loon-antigravity-rules/15cfe975509ec30d079a2e74a0b104edce653b06/rules/google-auth.list",
+      "sha256": "8b714e1cf7cb48dc8a0a0496837d68de653c0bc4365249d138181a73db861382",
+      "bytes": 1798,
+      "lines": 42
+    },
+    {
+      "id": "dayvight-full",
+      "repo": "dayvight/loon-antigravity-rules",
+      "ref": "main",
+      "path": "rules/google-full.list",
+      "mode": "google-list",
+      "local_path": "sources/snapshots/dayvight-full.list",
+      "commit": "15cfe975509ec30d079a2e74a0b104edce653b06",
+      "url": "https://raw.githubusercontent.com/dayvight/loon-antigravity-rules/15cfe975509ec30d079a2e74a0b104edce653b06/rules/google-full.list",
+      "sha256": "ae7413629142ce0ac329d1b82193897b2c635636cf906cf1ab6384afa2ce7704",
+      "bytes": 892,
+      "lines": 19
+    },
+    {
+      "id": "xukun-install-js",
+      "repo": "xukuncai-hub/antigravity-proxy",
+      "ref": "main",
+      "path": "install.js",
+      "mode": "patch-js",
+      "local_path": "sources/snapshots/xukun-install-js.js",
+      "commit": "f482397d69b133a942d3ebfd255b1dd8ffd4e8ba",
+      "url": "https://raw.githubusercontent.com/xukuncai-hub/antigravity-proxy/f482397d69b133a942d3ebfd255b1dd8ffd4e8ba/install.js",
+      "sha256": "11442fcd297099cc74a2f2659647669d432cf4738b507680bd64c8cbc659927a",
+      "bytes": 8881,
+      "lines": 225
+    },
+    {
+      "id": "xukun-install-py",
+      "repo": "xukuncai-hub/antigravity-proxy",
+      "ref": "main",
+      "path": "install.py",
+      "mode": "patch-py",
+      "local_path": "sources/snapshots/xukun-install-py.py",
+      "commit": "f482397d69b133a942d3ebfd255b1dd8ffd4e8ba",
+      "url": "https://raw.githubusercontent.com/xukuncai-hub/antigravity-proxy/f482397d69b133a942d3ebfd255b1dd8ffd4e8ba/install.py",
+      "sha256": "16e15dcf7b6ed4279e08e407d36a750549f8116bfd05394bdd9d107ad74805d7",
+      "bytes": 16300,
+      "lines": 427
+    },
+    {
+      "id": "xukun-pac",
+      "repo": "xukuncai-hub/antigravity-proxy",
+      "ref": "main",
+      "path": "src/proxy_patch.js",
+      "mode": "patch-pac",
+      "local_path": "sources/snapshots/xukun-pac.js",
+      "commit": "f482397d69b133a942d3ebfd255b1dd8ffd4e8ba",
+      "url": "https://raw.githubusercontent.com/xukuncai-hub/antigravity-proxy/f482397d69b133a942d3ebfd255b1dd8ffd4e8ba/src/proxy_patch.js",
+      "sha256": "d5682a0a5f714a36f6c3e7796f34ebf3b505f2211f9fe16d49b27a06df67e33e",
+      "bytes": 10874,
+      "lines": 263
+    },
+    {
+      "id": "vps-google-ai",
+      "repo": "VPSDance/ai-proxy-rules",
+      "ref": "main",
+      "path": "rules/loon/google-ai.list",
+      "mode": "google-list",
+      "local_path": "sources/snapshots/vps-google-ai.list",
+      "commit": "1fe3a3db476eaae38837a3690daf57838faf6ca0",
+      "url": "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/1fe3a3db476eaae38837a3690daf57838faf6ca0/rules/loon/google-ai.list",
+      "sha256": "411c0ef81441092035309d2d618436987e223e167e22fd649b50314fd5c8a9e8",
+      "bytes": 2071,
+      "lines": 61
+    },
+    {
+      "id": "vps-global",
+      "repo": "VPSDance/ai-proxy-rules",
+      "ref": "main",
+      "path": "rules/loon/global.list",
+      "mode": "google-filter",
+      "local_path": "sources/snapshots/vps-global.list",
+      "commit": "1fe3a3db476eaae38837a3690daf57838faf6ca0",
+      "url": "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/1fe3a3db476eaae38837a3690daf57838faf6ca0/rules/loon/global.list",
+      "sha256": "aeb1dc131a4b48a7f93d73d3170942cff9892de81369f502215e97d6164548a3",
+      "bytes": 12423,
+      "lines": 541
+    },
+    {
+      "id": "vps-all",
+      "repo": "VPSDance/ai-proxy-rules",
+      "ref": "main",
+      "path": "rules/loon/all.list",
+      "mode": "google-filter",
+      "local_path": "sources/snapshots/vps-all.list",
+      "commit": "1fe3a3db476eaae38837a3690daf57838faf6ca0",
+      "url": "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/1fe3a3db476eaae38837a3690daf57838faf6ca0/rules/loon/all.list",
+      "sha256": "b1684f186649078fef50201138334729c0349dfb70251d134a8ab9a7481b41df",
+      "bytes": 14518,
+      "lines": 636
+    }
+  ],
+  "licenses": [
+    {
+      "repo": "blackmatrix7/ios_rule_script",
+      "path": "LICENSE",
+      "local_path": "licenses/blackmatrix7-LICENSE.txt",
+      "commit": "0b6897dc17e0c513d25449c935a9694818e32f0c",
+      "spdx": "GPL-2.0",
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+      "bytes": 18092
+    },
+    {
+      "repo": "dayvight/loon-antigravity-rules",
+      "path": "LICENSE",
+      "local_path": "licenses/dayvight-LICENSE.txt",
+      "commit": "15cfe975509ec30d079a2e74a0b104edce653b06",
+      "spdx": "MIT",
+      "sha256": "ffc7171ac2453c04b73d780f10f4796436554ad8ee530ecef4183cdbe91ed635",
+      "bytes": 1065
+    },
+    {
+      "repo": "xukuncai-hub/antigravity-proxy",
+      "path": "LICENSE",
+      "local_path": "licenses/xukuncai-hub-LICENSE.txt",
+      "commit": "f482397d69b133a942d3ebfd255b1dd8ffd4e8ba",
+      "spdx": "MIT",
+      "sha256": "21daddc4b10e97b3e10ca40f24306fcf514474433a6f5ac2370e138410bbd48f",
+      "bytes": 1065
+    },
+    {
+      "repo": "VPSDance/ai-proxy-rules",
+      "path": "LICENSE",
+      "local_path": "licenses/VPSDance-LICENSE.txt",
+      "commit": "1fe3a3db476eaae38837a3690daf57838faf6ca0",
+      "spdx": "MIT",
+      "sha256": "ab29e472d9d810530b24ba4c8733a46b24b97165eb4d5e49d7f5f073b8b7cd0c",
+      "bytes": 1065
+    }
+  ],
+  "generated_sha256": {
+    "LICENSE": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+    "NOTICE.md": "7984ceb993157cfdd5edbee77270151270108d6ed1f866c4fbf5d2ce8cc483f4",
+    "README.md": "b2d60bacbce0612171177a4ed3e8a2a24fe26de9e93f1f0a36bc4e93024735cc",
+    "SOURCES.md": "19de859f68d2926f12b17582167c9ccee64aa2552ecc0df64996a018524ff1d8",
+    "examples/clash.yaml": "1aeaa2ac35248910c6df0e35849678b52bd3a1aee072ff1afb8edc2cb5519006",
+    "examples/loon.conf": "265145b76acc220721c3514949e356e491004ba7d51de504f7f1568b2ed482e9",
+    "licenses/VPSDance-LICENSE.txt": "ab29e472d9d810530b24ba4c8733a46b24b97165eb4d5e49d7f5f073b8b7cd0c",
+    "licenses/blackmatrix7-LICENSE.txt": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+    "licenses/dayvight-LICENSE.txt": "ffc7171ac2453c04b73d780f10f4796436554ad8ee530ecef4183cdbe91ed635",
+    "licenses/xukuncai-hub-LICENSE.txt": "21daddc4b10e97b3e10ca40f24306fcf514474433a6f5ac2370e138410bbd48f",
+    "reports/coverage.json": "19c964841261c8683afaab259ff06b5b32fd0788d499776978fb8d260d0e4f3b",
+    "reports/coverage.md": "9ffe019d4c3812950ce98dad5c3400df5da03d03916a88fc9f18f358d5fe4928",
+    "reports/exclusions.json": "cc5ea2a49f5ff153fee6f57e8ea8d916b83649805101a7c0389336a495e16bbe",
+    "reports/provenance.json": "b655611905d378872517c2505f6b1257a768027b24a86bd407d4fdafcc65bd0d",
+    "rules/clash/Google-AI-Domains.yaml": "500880f7162562228bebe71031d40e6ff901553d5966ba921bba3df1a0c1872c",
+    "rules/clash/Google-AI-IP.yaml": "5e7912df13f2dd6ea0339a1c8211269f9abd14ed7e979561dd63442e5092b8cf",
+    "rules/clash/Google-AI.yaml": "91c81bba62d6bfb159e42a0ee8cdad721f0719e9502bc662f20bdc7fdd12ff23",
+    "rules/loon/Google-AI-Domains.list": "0bca6d3af1c5f013aaed64e3f4c8856dd41a35d6eca8beb247fb6050fb34e583",
+    "rules/loon/Google-AI-IP.list": "2cfed9eca138bdeaa6b40860ed3065724ca1ec69e32bba5bdf6bf419d5c96cd4",
+    "rules/loon/Google-AI.list": "a5e6b94f43c6ed1afc1618391fec9f2e731da1a6286a93a56a42bc01e81c1f11",
+    "sources/snapshots/bm7-gemini.list": "db8f69154426dca76792ab80b3ad6b0e2d078ebe0e52e76faec1724245a4ec49",
+    "sources/snapshots/bm7-google.list": "8ad1014c13d43d907bf4b22095e2b74e8f5488abfc4ef5b6f4a9a4331897fd6a",
+    "sources/snapshots/dayvight-auth.list": "8b714e1cf7cb48dc8a0a0496837d68de653c0bc4365249d138181a73db861382",
+    "sources/snapshots/dayvight-full.list": "ae7413629142ce0ac329d1b82193897b2c635636cf906cf1ab6384afa2ce7704",
+    "sources/snapshots/vps-all.list": "b1684f186649078fef50201138334729c0349dfb70251d134a8ab9a7481b41df",
+    "sources/snapshots/vps-global.list": "aeb1dc131a4b48a7f93d73d3170942cff9892de81369f502215e97d6164548a3",
+    "sources/snapshots/vps-google-ai.list": "411c0ef81441092035309d2d618436987e223e167e22fd649b50314fd5c8a9e8",
+    "sources/snapshots/xukun-install-js.js": "11442fcd297099cc74a2f2659647669d432cf4738b507680bd64c8cbc659927a",
+    "sources/snapshots/xukun-install-py.py": "16e15dcf7b6ed4279e08e407d36a750549f8116bfd05394bdd9d107ad74805d7",
+    "sources/snapshots/xukun-pac.js": "d5682a0a5f714a36f6c3e7796f34ebf3b505f2211f9fe16d49b27a06df67e33e"
+  }
+}
